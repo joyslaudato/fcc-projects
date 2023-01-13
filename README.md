@@ -1,2 +1,2 @@
 # fcc-projects
-freeCodeCamp.org Certification Projects Repository
+Certification Projects Repository for freeCodeCamp.org
