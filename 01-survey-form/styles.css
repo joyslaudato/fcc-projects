@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://img.ws.mms.shopee.com.my/d49edcd7563241478fb7ef2945572f5d);
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, #description {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+form {
+    width: 80%;
+    min-width: 500px;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+fieldset {
+    border: none;
+    border-bottom: 2px solid chocolate;
+    padding: 2rem 0;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label,
+select {
+    display: block;
+    width: 100%;
+}
+
+.cx-info label {
+    margin: 0.75rem 0;
+}
+
+.cx-info input,
+.cx-info select {
+    margin: 0.25rem 0;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 3px;
+    background-color: #fff;
+}
+
+option:first-of-type {
+    color: grey;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+input,
+select {
+    height: 1.5rem;
+    padding: 1px 2px;
+}
+
+option {
+    color: black;
+    padding: 0.25rem;
+    font-size: 16px;
+}
+
+.cx-pref p, 
+.cx-exp p {
+    margin-top: 1.5rem;
+    margin-bottom: 0.65rem;
+}
+
+.cx-pref .p2,
+.cx-exp .p2 {
+    margin-top: -0.25rem;
+}
+
+.cx-pref input,
+.cx-pref label, 
+.cx-exp input,
+.cx-exp label  {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1.5rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: -4px;
+    margin-right: 0.1rem;
+    width: 16px;
+}
+
+#comment {
+    margin: 1.5rem 0;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 4.5rem auto 0;
+    font-size: 16px;
+    padding: 0.5rem;
+    width: 50%;
+    max-width: 300px;
+    background-color: rgb(238, 99, 44);
+    border: 1px solid #ca4c35;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 0 #ca4c35;
+}

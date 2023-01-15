@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopeeP H Users Survey</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">Shopee PH Users Survey</h1>
+    <p id="description">Thank you for taking time to help us improve your shopping experience!</p>
+
+    <form action="#" id="survey-form">
+
+        <fieldset class="cx-info">
+            <h2>Customer Information</h2>
+
+            <label for="name-label" id="name-label" class="block">
+                Full Name
+                <input type="text" name="name" id="name" class="block" placeholder=" Please enter your full name" required>
+            </label>
+
+            <label for="email-label" id="email-label" class="block">
+                Email Address
+                <input type="email" name="email" id="email" class="block" placeholder=" Please enter your email address" required>
+            </label>
+
+            <label for="number-label" id="number-label" class="block">
+                Age
+                <input type="number" name="number" id="number" class="block" placeholder=" Please enter your age" min="17" max="120" required>
+            </label>
+
+            <label for="gender">
+                Gender
+                <select name="gender" id="dropdown" required>
+                    <option value="" class="placeholder">(Please select one)</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="lgbtqia">LGBTQIA+</option>
+                    <option value="no-answer">Prefer not to answer</option>
+                </select>
+            </label>
+
+            <label for="location">
+                Location
+                <select name="location" id="location" required>
+                    <option value="">(Please select one)</option>
+                    <option value="ncr">National Capital Region (NCR)</option>
+                    <option value="car">Cordillera Administrative Region (CAR)</option>
+                    <option value="1">Region 1 (Ilocos Region)</option>
+                    <option value="2">Region 2 (Cagayan Valley)</option>
+                    <option value="3">Region 3 (Central Luzon)</option>
+                    <option value="4a">Region 4A (CALABARZON)</option>
+                    <option value="4b">Southwestern Tagalog Region (MIMAROPA)</option>
+                    <option value="5">Region 5 (Bicol Region)</option>
+                    <option value="6">Region 6 (Western Visayas)</option>
+                    <option value="7">Region 7 (Central Visayas)</option>
+                    <option value="8">Region 8 (Eastern Visayas)</option>
+                    <option value="9">Region 9 (Zamboanga Peninsula)</option>
+                    <option value="10">Region 10 (Northern Mindanao)</option>
+                    <option value="11">Region 11 (Davao Region)</option>
+                    <option value="12">Region 12 (SOCCKSARGEN)</option>
+                    <option value="13">Region 13 (CARAGA)</option>
+                    <option value="barmm">Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset class="cx-pref">
+            <h2>Customer Preference</h2>
+
+            <p>Which Shopee PH platform do you prefer to use?</p>
+            <label for="platform-mobile-app">
+                <input type="radio" name="platform" id="platform-mobile-app" value="mobile-app" required>
+                Mobile App
+            </label>
+            <label for="platform-web-browser">
+                <input type="radio" name="platform" id="platform-web-browser" value="web-browser">
+                Web Browser
+            </label>
+            <label for="platform-both">
+                <input type="radio" name="platform" id="platform-both" value="both">
+                I use both
+            </label>
+
+            <p>Which type of shops do you prefer to buy from?</p>
+            <label for="shop-preferred">
+                <input type="radio" name="shop" id="shop-preferred" value="preferred">
+                Shopee Mall/Preferred
+            </label>
+            <label for="shop-any">
+                <input type="radio" name="shop" id="shop-any" value="any">
+                I buy from any shop
+            </label>
+            
+            <p>Which payment method do you prefer to use?</p>
+            <p class="p2">(Select all that apply)</p>
+            <label for="payment-spay">
+                <input type="checkbox" id="payment-spay" value="payment-spay">
+                ShopeePay
+            </label>
+            <label for="payment-spaylater">
+                <input type="checkbox" id="payment-spaylater" value="payment-spaylater">
+                SPayLater
+            </label>
+            <label for="payment-cod">
+                <input type="checkbox" id="payment-cod" value="payment-cod">
+                Cash on Delivery
+            </label>
+            <label for="payment-pcenter">
+                <input type="checkbox" id="payment-pcenter" value="payment-pcenter">
+                Payment Center
+            </label>
+            <label for="payment-ewallet">
+                <input type="checkbox" id="payment-ewallet" value="payment-ewallet">
+                e-Wallet
+            </label>
+            <label for="payment-bank">
+                <input type="checkbox" id="payment-bank" value="payment-bank">
+                Linked Bank Account
+            </label>
+            <label for="payment-card">
+                <input type="checkbox" id="payment-card" value="payment-card">
+                Credit/Debit Card
+            </label>
+            <label for="payment-online">
+                <input type="checkbox" id="payment-online" value="payment-online">
+                Online Banking
+            </label>
+
+            <p>Which logistics service do you prefer to use?</p>
+            <p class="p2">(Select all that apply)</p>
+            <label for="logistics-shopee">
+                <input type="checkbox" id="logistics-shopee" value="shopee-express">
+                Shopee Xpress
+            </label>
+            <label for="logistics-jnt">
+                <input type="checkbox" id="logistics-jnt" value="jnt-express">
+                J&T Express
+            </label>
+            <label for="logistics-gogo">
+                <input type="checkbox" id="logistics-gogo" value="gogo-xpress">
+                GoGo Xpress
+            </label>
+            <label for="logistics-flash">
+                <input type="checkbox" id="logistics-flash" value="flash-express">
+                Flash Express
+            </label>
+            <label for="logistics-ninja">
+                <input type="checkbox" id="logistics-ninja" value="ninja-van">
+                Ninja Van
+            </label>
+            <label for="logistics-xde">
+                <input type="checkbox" id="logistics-xde" value="xde-logistics">
+                XDE Logistics
+            </label>
+        </fieldset>
+
+        <fieldset class="cx-exp">
+            <h2>Shopping Behavior & Experience</h2>
+
+            <p>When do you place your orders in Shopee?</p>
+            <label for="time-sale">
+                <input type="radio" name="time" id="time-sale" value="time-sale">
+                During Sale
+            </label>
+            <label for="time-any">
+                <input type="radio" name="time" id="time-any" value="time-any">
+                Anytime
+            </label>
+
+            <p>How often do you buy in Shopee?</p>
+            <label for="freq-low">
+                <input type="radio" name="frequency" id="freq-low" value="freq-low">
+                0 to 5 orders per month
+            </label>
+            <label for="freq-med">
+                <input type="radio" name="frequency" id="freq-med" value="freq-med">
+                6 to 10 orders per month
+            </label>
+            <label for="freq-high">
+                <input type="radio" name="frequency" id="freq-high" value="freq-high">
+                11 to 20 orders per month
+            </label>
+            <label for="freq-vhigh">
+                <input type="radio" name="frequency" id="freq-vhigh" value="freq-vhigh">
+                More than 20 orders per month
+            </label>
+
+            <!-- 
+                For update if will include:
+                
+                <p>From which item categories have you bought using Shopee?</p>
+                <p class="p2">(Select all that apply)</p>
+                label*
+            -->
+
+            <p>What do you like the most in using Shopee?</p>
+            <p class="p2">(Select all that apply)</p>
+            <label for="feat-convenience">
+                <input type="checkbox" id="feat-convenience" value="feat-convenience">
+                Convenience
+            </label>
+            <label for="feat-ui">
+                <input type="checkbox" id="feat-ui" value="feat-ui">
+                User-Friendly Interface
+            </label>
+            <label for="feat-pricing">
+                <input type="checkbox" id="feat-pricing" value="feat-pricing">
+                Pricing
+            </label>
+            <label for="feat-promo">
+                <input type="checkbox" id="feat-promo" value="feat-promo">
+                Promos, Discounts, Vouchers & Cashback
+            </label>
+            <label for="feat-variety">
+                <input type="checkbox" id="feat-variety" value="feat-variety">
+                Item Variety
+            </label>
+            <label for="feat-quality">
+                <input type="checkbox" id="feat-quality" value="feat-quality">
+                Item Quality
+            </label>
+
+            <label for="feedback" id="comment">
+                Please tell us how we can improve your shopping experience using Shopee:
+                <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="Please type your comments and suggestions here"></textarea>
+            </label>
+        </fieldset>
+        
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
