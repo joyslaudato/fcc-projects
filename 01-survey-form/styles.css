@@ -76,6 +76,8 @@ select {
     padding: 1px 2px;
 }
 
+input,
+select,
 option {
     color: black;
     padding: 0.25rem;
